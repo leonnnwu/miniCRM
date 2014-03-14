@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <TextView 
+  android:id="@+id/tv_showclient"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:textSize="20dip"
+  />
+  <LinearLayout 
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  >
+  <TextView 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textSize="15dip"
+  android:text="Contact: "
+  />
+  <TextView
+  android:id="@+id/tv_showcontact"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:textSize="15dip"
+  />
+  <TextView 
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textSize="15dip"
+  android:text="Tel:"
+  />
+  <TextView
+  android:id="@+id/tv_showtel"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textSize="15dip" 
+  />
+  </LinearLayout>  
+</LinearLayout>
